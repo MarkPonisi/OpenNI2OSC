@@ -1,6 +1,6 @@
 OpenNI2OSC sends User Position (upto 6 people) data through OSC. Made only for mac. For windows, please use OSCeleton. What it does is almost same as OSCeleton. The reason behind this software is that OSCeleton crashes on Mac and some of you needed this. At this point it is only sending the user position data. Skeletal tracking is not yet implemented. Skeletal tracking code is partially ready by Matti Niinimaki (mansiteri.com). Only a copy-paste issue.  Wait for the next releases :)
 
-It sends data to localhost (127.0.01) to port 7110.
+It sends data to localhost (127.0.0.1) to port 7110.
 
 OSC Message Format
 /user/1/realworld.x realworld.y realworld.z projected.x projected.y projected.z
