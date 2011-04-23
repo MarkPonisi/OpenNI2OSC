@@ -11,7 +11,7 @@ Realworld values are in milimeters and takes the Kinect as 0,0,0 point.
 Projected values are the projection of these real world coordinate data to screen size of 640 by 480. Meaning that x values are btwn (0-640), y values are btwn (0-480) and z is the same as real world values in milimeters.
 
 To-Do for Next Versions:
-Normalization of values like OSCeleton
+Normalization of values like OSCeleton for OSCeleton users
 Skeletal data implementation
 Display coordinates for each user - done with v0.3
 Ability to change port number - i think a config.xml file would work for this purpose?
