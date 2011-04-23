@@ -1,0 +1,24 @@
+What it does is almost same as OSCeleton. The reason behind this software is that OSCeleton crashes on Mac and some of you needed this. At this point it is only sending the user position data. Skeletal tracking is not yet implemented. Skeletal tracking partially ready by Matti Niinimaki. Only a copy-paste issue.  wait for the next releases :)
+
+It sends data to localhost (127.0.01) to port 7110.
+
+OSC Message Format
+/user/1/realworld.x realworld.y realworld.z projected.x projected.y projected.z
+/new_user
+/lost_user
+
+Realworld values are in milimeters and takes the Kinect as 0,0,0 point.
+Projected values are the projection of these real world coordinate data to screen size of 640 by 480. Meaning that x values are btwn (0-640), y values are btwn (0-480) and z is the same as real world values in milimeters.
+
+To-Do for Next Versions:
+Normalization of values like OSCeleton
+Skeletal data implementation
+Display coordinates for each user - done with v0.3
+Ability to change port number - i think a config.xml file would work for this purpose?
+Quartz Composer compatible mode 
+
+Release Notes v0.3
+Display coordinates for each user
+
+Release Notes v0.2
+OSC message bug fixed. (for /user)
