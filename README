@@ -1,4 +1,4 @@
-What it does is almost same as OSCeleton. The reason behind this software is that OSCeleton crashes on Mac and some of you needed this. At this point it is only sending the user position data. Skeletal tracking is not yet implemented. Skeletal tracking partially ready by Matti Niinimaki. Only a copy-paste issue.  wait for the next releases :)
+OpenNI2OSC sends User Position (upto 6 people) data through OSC. Made only for mac. For windows, please use OSCeleton. What it does is almost same as OSCeleton. The reason behind this software is that OSCeleton crashes on Mac and some of you needed this. At this point it is only sending the user position data. Skeletal tracking is not yet implemented. Skeletal tracking code is partially ready by Matti Niinimaki (mansiteri.com). Only a copy-paste issue.  Wait for the next releases :)
 
 It sends data to localhost (127.0.01) to port 7110.
 
